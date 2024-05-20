@@ -34,7 +34,7 @@ def read_root():
     return {"message": "Welcome to value analyzer!"}
 
 
-# if __name__ == "__main__":
-#     import uvicorn
-#     logger.info("Starting Uvicorn server...")
-#     uvicorn.run(app, host="0.0.0.0", port=8001)
+if __name__ == "__main__":
+    import uvicorn
+    logger.info("Starting Uvicorn server...")
+    uvicorn.run(app, host="0.0.0.0")
